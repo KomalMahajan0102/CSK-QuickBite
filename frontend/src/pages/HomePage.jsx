@@ -21,6 +21,7 @@ import Delivery from '../components/Delivery/Delivery';
 import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
 
+import foodVideo from '../assets/food.mp4';
 
 import './About.css'
 const HomePage = ({setShowLogin}) => {
@@ -60,7 +61,7 @@ const HomePage = ({setShowLogin}) => {
             <div className='header'>                   
                     <div id='home '>
                         <div className="video-container container-fluid">
-                            <video className="video-bg" src={Home.video} autoPlay loop muted></video>
+                            <video className="video-bg" src={foodVideo} autoPlay loop muted playsInline></video>
                         </div>
                         <div className={`container-fluid ${show1 ? 'blur' : ''}`}>
                             <div className={`container-fluid ${show ? 'blur' : ''}`}>
