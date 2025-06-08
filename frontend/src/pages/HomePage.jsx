@@ -22,8 +22,11 @@ import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
 
 import foodVideo from '../assets/food.mp4';
+import item1 from '../assets/Chicken.png';
+import item2 from '../assets/pizza.png';
 
 import './About.css'
+
 const HomePage = ({setShowLogin}) => {
 
 
@@ -82,8 +85,8 @@ const HomePage = ({setShowLogin}) => {
                                         </div>
 
                                         <div className="col-lg-3 col-10 pt-md-5 mt-md-5 mt-lg-5 mt-xl-1 order-md-2 order-1 pizza-chicken">
-                                            <img className='img-fluid fd-rotate d-block d-md-none d-lg-block' src={Home.img} alt="" />
-                                            <img className="img-fluid fd-img d-block d-md-none d-lg-block" src={Home.img1} alt="" />
+                                            <img className='img-fluid fd-rotate d-block d-md-none d-lg-block' src={item1} alt="" />
+                                            <img className="img-fluid fd-img d-block d-md-none d-lg-block" src={item2} alt="" />
                                         </div>
                                     </div>
                                 </div>
