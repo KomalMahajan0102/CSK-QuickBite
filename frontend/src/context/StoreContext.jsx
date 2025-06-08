@@ -9,7 +9,7 @@ const StoreContextProvider=(props)=>{
     const [cartItems,setCartItems]=useState({});
     const [token,setToken]=useState("");
     const [food_list,setFoodList]=useState([]);
-    const url="http://localhost:4000";
+    const url="https://csk-quickbite-api.onrender.com";
     const addToCart=async(itemId)=>{
         if(!cartItems[itemId]){
             setCartItems((prev) => ({ ...prev, [itemId]: 1 }));
