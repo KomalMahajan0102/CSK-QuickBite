@@ -10,7 +10,7 @@ import orderRouter from "./routes/orderRoute.js";
 //mongodb+srv://komal:<db_password>@cluster0.tuzpk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 //app config
 const app=express();
-const port=4000
+const port=process.env.PORT||4000;
 
 // middleware
 app.use(express.json())
