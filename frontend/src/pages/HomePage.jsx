@@ -78,7 +78,9 @@ const HomePage = ({setShowLogin}) => {
                                                 Your one-stop destination for succulent non-veg food that will leave you wanting more, every time !"
                                             </p><br></br>
                                             <div className=' text-center'>
-                                                <button className="fd-btn border-0 text-white">Order Now</button>  <button className='fd-btn2  border-0'>Reserve</button>
+                                                <a href="/menu">
+                                                <button className="fd-btn border-0 text-white">Order Now</button>
+                                                </a>
                                             </div>
 
 
